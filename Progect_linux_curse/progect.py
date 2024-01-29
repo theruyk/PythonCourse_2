@@ -76,3 +76,6 @@ class TestSevenZ:
 #  pytest.main['-vv']
 
 #pytest -vv /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/progect.py
+
+#pytest --alluredir=/Users/the_ryuk/Desktop/PythonCurse_2/results2 /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/progect.py
+#allure serve /Users/the_ryuk/Desktop/PythonCurse_2/results2
