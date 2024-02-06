@@ -2,17 +2,15 @@ from checkers import checkout, getout
 import yaml
 import pytest
 
-
-
-
 @pytest.mark.usefixtures('make_folders','make_files','make_subfolder','clear_folders','stats_collector')
 class TestSevenZ:
 
-  def test_step1(self,data):
-      # Тест 1: Создание архива из содержимого папки folder_in.
-      res1 = checkout("cd {}; 7z a {}/arx2 *".format(data.get('folder_in'), data.get('folder_out')), "Everything is Ok")
-      res2 = checkout("ls {}".format(data.get('folder_out')), "arx2.7z")
-      assert res1 and res2, "test1 FAIL"
+  def test_step1(self, data):
+    # Тест 1: Создание архива из содержимого папки folder_in.
+    archive_type = data.get('archive_type')  # Получаем тип архива из конфигурации
+    res1 = checkout("cd {}; 7z a {} {}/arx2 *".format(data.get('folder_in'), archive_type, data.get('folder_out')), "Everything is Ok")
+    res2 = checkout("ls {}".format(data.get('folder_out')), "arx2.7z")
+    assert res1 and res2, "test1 FAIL"
 
   def test_step2(self,make_files,data):
       # Тест 2: Проверка наличия файлов внутри архива arx2.7z.
@@ -31,29 +29,33 @@ class TestSevenZ:
       # Тест 4: Проверка обновления содержимого архива
       assert checkout(f"cd {data.get('folder_in')}; 7z u arx2.7z", "Everything is Ok"), "test4 FAIL"
 
-  def test_step5(self,make_files,data):
+  def test_step5(self, make_files, data):
       # Тест 5: Проверка создания архива и его содержимого
       res = []
+      archive_type = data.get('archive_type')  # Получаем тип архива из конфигурации
       # Создает архив и проверяет, было ли это успешно
-      res.append(checkout(f"cd {data.get('folder_in')}; 7z a {data.get('folder_out')}/arx2", "Everything is Ok"))
+      res.append(checkout(f"cd {data.get('folder_in')}; 7z a {archive_type} {data.get('folder_out')}/arx2", "Everything is Ok"))
       # Проверяет наличие каждого файла из списка make_files в архиве arx2.7z
       for item in make_files:
           res.append(checkout(f"cd {data.get('folder_out')}; 7z l arx2.7z", item))
       # Проверяет, что все предыдущие действия прошли успешно
       assert all(res), "test5 FAIL"
 
-  def test_step6(self,make_files,data):
+
+  def test_step6(self, make_files, data):
       # Тест 6: Проверка содержимого архива и извлечения файлов
       res = []
+      archive_type = data.get('archive_type')  # Получаем тип архива из конфигурации
       # Создает архив и проверяет, было ли это успешно
-      res.append(checkout(f"cd {data.get('folder_in')}; 7z a {data.get('folder_out')}/arx", "Everything is Ok"))
+      res.append(checkout(f"cd {data.get('folder_in')}; 7z a {archive_type} {data.get('folder_out')}/arx", "Everything is Ok"))
       # Извлекает содержимое архива и проверяет, было ли это успешно
       res.append(checkout(f"cd {data.get('folder_out')}; 7z x arx.7z -o{data.get('folder_ext2')} -y", "Everything is Ok"))
       # Проверяет наличие каждого файла из списка make_files в извлеченной папке folder_ext2
       for item in make_files:
-          res.append(checkout(f"ls {data.get('folder_ext2')}", item))
+        res.append(checkout(f"ls {data.get('folder_ext2')}", item))
       # Проверяет, что все предыдущие действия прошли успешно
       assert all(res), "test6 FAIL"
+
 
   def test_step7(self,data):
       # Тест 7: Проверка удаления содержимого архива
