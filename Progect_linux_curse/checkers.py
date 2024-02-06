@@ -43,3 +43,6 @@ def checkout_negative(cmd, text):
 def getout(cmd):
     # Выполнение команды и возвращение её вывода
     return subprocess.run(cmd, shell=True, stdout=subprocess.PIPE, encoding='utf-8').stdout
+
+
+
