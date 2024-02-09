@@ -1,5 +1,15 @@
-folder_in: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_in
-folder_out: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_out
-folder_ext: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_ext
-folder_ext2: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_ext2
+# folder_in: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_in
+# folder_out: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_out
+# folder_ext: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_ext
+# folder_ext2: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_ext2
 archive_type: '-t7z'
+ip: "89.104.68.41"
+username: "root"
+password: "TeimQvN9VxSOhb2g"
+install_path: "/root/arhive"
+local_path: "/Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/p7zip-full.deb"
+port: 22
+folder_in: /root/folders/folder_in
+folder_out: /root/folders/folder_out
+folder_ext: /root/folders/folder_ext
+folder_ext2: /root/folders/folder_ext2
