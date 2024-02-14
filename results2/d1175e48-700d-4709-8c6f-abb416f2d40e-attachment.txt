@@ -1,0 +1,90 @@
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Open archive: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_out/arx2.7z
+--
+Path = /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_out/arx2.7z
+Type = 7z
+Physical Size = 6292040
+Headers Size = 247
+Method = LZMA2:6m
+Solid = +
+Blocks = 1
+
+Scanning the drive:
+1 folder, 6 files, 6291456 bytes (6144 KiB)
+
+Updating archive: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_out/arx2.7z
+
+Items to compress: 7
+
+
+Files read from disk: 6
+Archive size: 6292040 bytes (6145 KiB)
+Everything is Ok
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning the drive for archives:
+1 file, 6292040 bytes (6145 KiB)
+
+Extracting archive: arx2.7z
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 6292040
+Headers Size = 247
+Method = LZMA2:6m
+Solid = +
+Blocks = 1
+
+Everything is Ok
+
+Folders: 1
+Files: 6
+Size:       6291456
+Compressed: 6292040
+
+310ER
+JKB07
+MQL3X
+O9XCI
+R8K87
+X3PDE
+YS462
+
+310ER
+JKB07
+MQL3X
+O9XCI
+R8K87
+X3PDE
+YS462
+
+310ER
+JKB07
+MQL3X
+O9XCI
+R8K87
+X3PDE
+YS462
+
+310ER
+JKB07
+MQL3X
+O9XCI
+R8K87
+X3PDE
+YS462
+
+310ER
+JKB07
+MQL3X
+O9XCI
+R8K87
+X3PDE
+YS462
+

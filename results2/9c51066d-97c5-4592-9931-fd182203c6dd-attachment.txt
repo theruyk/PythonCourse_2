@@ -1,0 +1,181 @@
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Open archive: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_out/arx2.7z
+--
+Path = /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_out/arx2.7z
+Type = 7z
+Physical Size = 6292040
+Headers Size = 247
+Method = LZMA2:6m
+Solid = +
+Blocks = 1
+
+Scanning the drive:
+1 folder, 7 files, 12583496 bytes (13 MiB)
+
+Updating archive: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_out/arx2.7z
+
+Items to compress: 8
+
+
+Files read from disk: 7
+Archive size: 6294390 bytes (6147 KiB)
+Everything is Ok
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning the drive for archives:
+1 file, 6294390 bytes (6147 KiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 6294390
+Headers Size = 269
+Method = LZMA2:24
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-26 18:43:42 D....            0            0  310ER
+2023-12-26 18:43:42 ....A      1048576      6294121  310ER/X3PDE
+2023-12-26 18:43:42 ....A      1048576               JKB07
+2023-12-26 18:43:42 ....A      1048576               MQL3X
+2023-12-26 18:43:42 ....A      1048576               O9XCI
+2023-12-26 18:43:42 ....A      1048576               R8K87
+2023-12-26 18:43:42 ....A      1048576               YS462
+2023-12-26 18:43:47 ....A      6292040               arx2.7z
+------------------- ----- ------------ ------------  ------------------------
+2023-12-26 18:43:47           12583496      6294121  7 files, 1 folders
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning the drive for archives:
+1 file, 6294390 bytes (6147 KiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 6294390
+Headers Size = 269
+Method = LZMA2:24
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-26 18:43:42 D....            0            0  310ER
+2023-12-26 18:43:42 ....A      1048576      6294121  310ER/X3PDE
+2023-12-26 18:43:42 ....A      1048576               JKB07
+2023-12-26 18:43:42 ....A      1048576               MQL3X
+2023-12-26 18:43:42 ....A      1048576               O9XCI
+2023-12-26 18:43:42 ....A      1048576               R8K87
+2023-12-26 18:43:42 ....A      1048576               YS462
+2023-12-26 18:43:47 ....A      6292040               arx2.7z
+------------------- ----- ------------ ------------  ------------------------
+2023-12-26 18:43:47           12583496      6294121  7 files, 1 folders
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning the drive for archives:
+1 file, 6294390 bytes (6147 KiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 6294390
+Headers Size = 269
+Method = LZMA2:24
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-26 18:43:42 D....            0            0  310ER
+2023-12-26 18:43:42 ....A      1048576      6294121  310ER/X3PDE
+2023-12-26 18:43:42 ....A      1048576               JKB07
+2023-12-26 18:43:42 ....A      1048576               MQL3X
+2023-12-26 18:43:42 ....A      1048576               O9XCI
+2023-12-26 18:43:42 ....A      1048576               R8K87
+2023-12-26 18:43:42 ....A      1048576               YS462
+2023-12-26 18:43:47 ....A      6292040               arx2.7z
+------------------- ----- ------------ ------------  ------------------------
+2023-12-26 18:43:47           12583496      6294121  7 files, 1 folders
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning the drive for archives:
+1 file, 6294390 bytes (6147 KiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 6294390
+Headers Size = 269
+Method = LZMA2:24
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-26 18:43:42 D....            0            0  310ER
+2023-12-26 18:43:42 ....A      1048576      6294121  310ER/X3PDE
+2023-12-26 18:43:42 ....A      1048576               JKB07
+2023-12-26 18:43:42 ....A      1048576               MQL3X
+2023-12-26 18:43:42 ....A      1048576               O9XCI
+2023-12-26 18:43:42 ....A      1048576               R8K87
+2023-12-26 18:43:42 ....A      1048576               YS462
+2023-12-26 18:43:47 ....A      6292040               arx2.7z
+------------------- ----- ------------ ------------  ------------------------
+2023-12-26 18:43:47           12583496      6294121  7 files, 1 folders
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning the drive for archives:
+1 file, 6294390 bytes (6147 KiB)
+
+Listing archive: arx2.7z
+
+--
+Path = arx2.7z
+Type = 7z
+Physical Size = 6294390
+Headers Size = 269
+Method = LZMA2:24
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2023-12-26 18:43:42 D....            0            0  310ER
+2023-12-26 18:43:42 ....A      1048576      6294121  310ER/X3PDE
+2023-12-26 18:43:42 ....A      1048576               JKB07
+2023-12-26 18:43:42 ....A      1048576               MQL3X
+2023-12-26 18:43:42 ....A      1048576               O9XCI
+2023-12-26 18:43:42 ....A      1048576               R8K87
+2023-12-26 18:43:42 ....A      1048576               YS462
+2023-12-26 18:43:47 ....A      6292040               arx2.7z
+------------------- ----- ------------ ------------  ------------------------
+2023-12-26 18:43:47           12583496      6294121  7 files, 1 folders
+

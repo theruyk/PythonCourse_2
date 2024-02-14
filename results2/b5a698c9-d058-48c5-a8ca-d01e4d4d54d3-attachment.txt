@@ -1,0 +1,18 @@
+1+0 records in
+1+0 records out
+1048576 bytes transferred in 0.001565 secs (670016613 bytes/sec)
+1+0 records in
+1+0 records out
+1048576 bytes transferred in 0.001662 secs (630912154 bytes/sec)
+1+0 records in
+1+0 records out
+1048576 bytes transferred in 0.001483 secs (707064059 bytes/sec)
+1+0 records in
+1+0 records out
+1048576 bytes transferred in 0.001362 secs (769879589 bytes/sec)
+1+0 records in
+1+0 records out
+1048576 bytes transferred in 0.001240 secs (845625806 bytes/sec)
+1+0 records in
+1+0 records out
+1048576 bytes transferred in 0.001820 secs (576140659 bytes/sec)

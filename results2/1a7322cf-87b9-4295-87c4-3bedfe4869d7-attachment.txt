@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning the drive:
+1 folder, 6 files, 6291456 bytes (6144 KiB)
+
+Creating archive: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_out/arx2.7z
+
+Items to compress: 7
+
+
+Files read from disk: 6
+Archive size: 6292040 bytes (6145 KiB)
+Everything is Ok
+
+arx2.7z
+

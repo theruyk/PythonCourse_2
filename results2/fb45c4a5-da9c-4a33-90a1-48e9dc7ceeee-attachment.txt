@@ -1,0 +1,191 @@
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+B91E4F52       1048576  MQL3X
+-------- -------------  ------------
+B91E4F52       1048576  
+
+Size: 1048576
+
+CRC32  for data:              B91E4F52
+
+Everything is Ok
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+B91E4F52       1048576  MQL3X
+-------- -------------  ------------
+B91E4F52       1048576  
+
+Size: 1048576
+
+CRC32  for data:              B91E4F52
+
+Everything is Ok
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+7C22A025       1048576  R8K87
+-------- -------------  ------------
+7C22A025       1048576  
+
+Size: 1048576
+
+CRC32  for data:              7C22A025
+
+Everything is Ok
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+7C22A025       1048576  R8K87
+-------- -------------  ------------
+7C22A025       1048576  
+
+Size: 1048576
+
+CRC32  for data:              7C22A025
+
+Everything is Ok
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+6A4818EA       1048576  YS462
+-------- -------------  ------------
+6A4818EA       1048576  
+
+Size: 1048576
+
+CRC32  for data:              6A4818EA
+
+Everything is Ok
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+6A4818EA       1048576  YS462
+-------- -------------  ------------
+6A4818EA       1048576  
+
+Size: 1048576
+
+CRC32  for data:              6A4818EA
+
+Everything is Ok
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+DF12687A       1048576  JKB07
+-------- -------------  ------------
+DF12687A       1048576  
+
+Size: 1048576
+
+CRC32  for data:              DF12687A
+
+Everything is Ok
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+DF12687A       1048576  JKB07
+-------- -------------  ------------
+DF12687A       1048576  
+
+Size: 1048576
+
+CRC32  for data:              DF12687A
+
+Everything is Ok
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+DC7A78EB       1048576  O9XCI
+-------- -------------  ------------
+DC7A78EB       1048576  
+
+Size: 1048576
+
+CRC32  for data:              DC7A78EB
+
+Everything is Ok
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning
+1 file, 1048576 bytes (1024 KiB)
+
+CRC32             Size  Name
+-------- -------------  ------------
+DC7A78EB       1048576  O9XCI
+-------- -------------  ------------
+DC7A78EB       1048576  
+
+Size: 1048576
+
+CRC32  for data:              DC7A78EB
+
+Everything is Ok
+
+

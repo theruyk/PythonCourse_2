@@ -1,0 +1,80 @@
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning the drive:
+1 folder, 7 files, 12583496 bytes (13 MiB)
+
+Creating archive: /Users/the_ryuk/Desktop/PythonCurse_2/Progect_linux_curse/folder_out/arx.7z
+
+Items to compress: 8
+
+
+Files read from disk: 7
+Archive size: 6294390 bytes (6147 KiB)
+Everything is Ok
+
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning the drive for archives:
+1 file, 6294390 bytes (6147 KiB)
+
+Extracting archive: arx.7z
+--
+Path = arx.7z
+Type = 7z
+Physical Size = 6294390
+Headers Size = 269
+Method = LZMA2:24
+Solid = +
+Blocks = 1
+
+Everything is Ok
+
+Folders: 1
+Files: 7
+Size:       12583496
+Compressed: 6294390
+
+310ER
+JKB07
+MQL3X
+O9XCI
+R8K87
+YS462
+arx2.7z
+
+310ER
+JKB07
+MQL3X
+O9XCI
+R8K87
+YS462
+arx2.7z
+
+310ER
+JKB07
+MQL3X
+O9XCI
+R8K87
+YS462
+arx2.7z
+
+310ER
+JKB07
+MQL3X
+O9XCI
+R8K87
+YS462
+arx2.7z
+
+310ER
+JKB07
+MQL3X
+O9XCI
+R8K87
+YS462
+arx2.7z
+

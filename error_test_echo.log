@@ -1,0 +1,16 @@
+
+2023-12-26 16:25:24,352:DEBUG:Начало теста test_echo
+2023-12-26 16:25:24,357:DEBUG:Echo output: Hello, world!
+2023-12-26 16:25:24,357:DEBUG:Конец теста test_echo
+2023-12-26 16:25:40,820:DEBUG:Начало теста test_echo
+2023-12-26 16:25:40,823:DEBUG:Echo output: Hello, wвorld!
+2023-12-26 16:25:40,824:ERROR:Тест не прошел: ожидаемый вывод - Hello, world!, полученный вывод - Hello, wвorld!
+2023-12-26 16:32:39,737:DEBUG:Начало теста test_echo
+2023-12-26 16:32:39,740:DEBUG:Echo output: Hello, world!
+2023-12-26 16:32:39,740:DEBUG:Конец теста test_echo
+2023-12-26 16:32:59,176:DEBUG:Начало теста test_echo
+2023-12-26 16:32:59,179:DEBUG:Echo output: Helloампир, world!
+2023-12-26 16:32:59,179:ERROR:Тест не прошел: ожидаемый вывод - Hello, world!, полученный вывод - Helloампир, world!
+2023-12-26 18:07:22,912:DEBUG:Начало теста test_echo
+2023-12-26 18:07:22,916:DEBUG:Echo output: Helloампир, world!
+2023-12-26 18:07:22,916:ERROR:Тест не прошел: ожидаемый вывод - Hello, world!, полученный вывод - Helloампир, world!
