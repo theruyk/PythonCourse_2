@@ -1,0 +1,8 @@
+address : https://test-stand.gb.ru/
+sleep_time  : 1
+browser : chrome  # or  firefox chrome
+login : ddddddddddddddddddddd111111
+password : '844ba5ccff'
+post_title : Test post
+post_description : Test
+post_content : Test
