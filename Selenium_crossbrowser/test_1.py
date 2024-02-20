@@ -1,81 +1,72 @@
+from testpage import OperationsHelper, PostPageLocators, ContactUsPageLocators, TestSearchLocators
+from selenium.webdriver.support.wait import WebDriverWait
 import yaml
-import time
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-# Импортируем класс Service для работы с сервисом ChromeDriver.
-from selenium.webdriver.chrome.service import Service
-from module import Site
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import pytest
-
+import time
+import logging 
 
 with open("/Users/the_ryuk/Desktop/PythonCurse_2/Selenium_crossbrowser/test_data.yaml") as f:
     testdata = yaml.safe_load(f)
 
-# Создаем экземпляр класса Site, передавая в конструктор значение из словаря testdata по ключу "address".
-# Это значение должно быть URL-адресом, который класс Site будет использовать для открытия веб-страницы через WebDriver.
 
-
-def test_step1(site, path_login, path_password, path_button, path_err_label, expected_result):
+def test_step1(browser):
     """Проверяет что ошибка при вводе невалидных данных при авторизации соответствует 401"""
+    logging.info("Test 1 starting")
+    testpage = OperationsHelper(browser)
+    testpage.go_to_site()
+    testpage.enter_login("test")
+    testpage.enter_pass("test")
+    testpage.click_login_button()
+    assert testpage.get_error_text() == "401"
 
-    input1 = site.find_element("xpath", path_login)
-    input1.send_keys("test")
 
-    input2 = site.find_element("xpath", path_password)
-    input2.send_keys("test")
-
-    btn = site.find_element("css", path_button)
-    btn.click()
-
-    WebDriverWait(site.driver, 10).until(
-        EC.visibility_of_element_located((By.XPATH, path_err_label))
-    )
-    err_label = site.find_element("xpath", path_err_label)
-
-    assert err_label.text == expected_result
-
-def test_step2(site, path_login, path_password, path_button, path_Blog_label):
+def test_step2(browser):
     """Проверяет успешность авторизации при вводе валидных данных"""
-
-    input1 = site.find_element("xpath", path_login)
-    input1.send_keys(testdata['login'])
-
-    input2 = site.find_element("xpath", path_password)
-    input2.send_keys(testdata['password'])
-
-    btn = site.find_element("css", path_button)
-    btn.click()
+    logging.info("Test 2 starting")
+    testpage = OperationsHelper(browser)
+    testpage.enter_login(testdata['login'])
+    testpage.enter_pass(testdata['password'])
+    testpage.click_login_button()
     
     # Ждём появления элемента с меткой "Home" и проверяем его текст
-    WebDriverWait(site.driver, 10).until(EC.visibility_of_element_located((By.XPATH, path_Blog_label)))
-    Blog_label = site.find_element("xpath", path_Blog_label)
+    blog_label = testpage.find_element(PostPageLocators.LOCATOR_BLOG_LABEL)
+    assert blog_label.text == 'Blog'
 
-
-    assert Blog_label.text == 'Blog'
-
-def test_step3(site,authorization, path_create_post_btn,
-path_title, path_description, path_content, path_save_btn,path_title_of_created_post):
+def test_step3(browser):
     """Добавляет и проверяет наличие поста"""
+    logging.info("Test 3 starting")
+    testpage = OperationsHelper(browser)
+    testpage.find_element(PostPageLocators.LOCATOR_CREATE_POST_BTN).click()
 
-    btn1 = site.find_element("xpath", path_create_post_btn)
-    btn1.click()
-
-    WebDriverWait(site.driver, 10).until(EC.visibility_of_element_located((By.XPATH, path_title)))
-    input1 = site.find_element("xpath", path_title)
-    input1.send_keys(testdata['post_title'])
-
-    input2 = site.find_element("xpath", path_description)
-    input2.send_keys(testdata['post_description'])
-
-    input3 = site.find_element("xpath", path_content)
-    input3.send_keys(testdata['post_content'])
-
-    btn2 = site.find_element("xpath", path_save_btn)
-    btn2.click()
-    time.sleep(5)
-
-    WebDriverWait(site.driver, 10).until(EC.visibility_of_element_located((By.XPATH, path_title_of_created_post)))
-    title_text = site.find_element("xpath", path_title_of_created_post)
+    WebDriverWait(testpage.driver, 10).until(
+        EC.visibility_of_element_located(PostPageLocators.LOCATOR_TITLE_FIELD)
+    )
+    testpage.enter_title(testdata['post_title'])
+    testpage.enter_description(testdata['post_description'])
+    testpage.enter_content(testdata['post_content'])
+    testpage.click_save_button()
+    time.sleep(3)
+    
+    title_text = testpage.find_element(PostPageLocators.LOCATOR_TITLE_OF_CREATED_POST)
     assert title_text.text == testdata['post_title']
+
+def test_step4(browser):
+    """Проверяет механику работы формы Contact Us"""
+    logging.info("Test 4 starting")
+    testpage = OperationsHelper(browser)
+    testpage.go_to_site()
+    testpage.find_element(TestSearchLocators.LOCATOR_CONTACT_US_BTN).click()
+    WebDriverWait(testpage.driver, 10).until(
+        EC.visibility_of_element_located(ContactUsPageLocators.LOCATOR_NAME_FIELD)
+    )
+    testpage.enter_name(testdata['name_for_contact_us'])
+    testpage.enter_email(testdata['email_for_contact_us'])
+    testpage.enter_content_to_us(testdata['content_for_contact_us'])
+    testpage.click_contact_us_button()
+    WebDriverWait(testpage.driver, 10).until(EC.alert_is_present())
+    # Получение текста алерта
+    alert = testpage.find_alert()
+    alert_text = alert.text
+    # Закрытие алерта
+    alert.accept()
+    assert alert_text == 'Form successfully submitted'
