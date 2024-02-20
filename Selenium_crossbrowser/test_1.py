@@ -55,7 +55,7 @@ def test_step4(browser):
     logging.info("Test 4 starting")
     testpage = OperationsHelper(browser)
     testpage.go_to_site()
-    testpage.find_element(TestSearchLocators.LOCATOR_CONTACT_US_BTN).click()
+    testpage.find_element(ContactUsPageLocators.LOCATOR_CONTACT_US_BTN).click()
     WebDriverWait(testpage.driver, 10).until(
         EC.visibility_of_element_located(ContactUsPageLocators.LOCATOR_NAME_FIELD)
     )

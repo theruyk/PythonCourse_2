@@ -8,7 +8,7 @@ class TestSearchLocators:
   LOCATOR_PASS_FIELD = (By.XPATH, """//*[@id="login"]/div[2]/label/input""")
   LOCATOR_LOGIN_BTN = (By.CSS_SELECTOR, "button")
   LOCATOR_ERROR_FIELD = (By.XPATH, """//*[@id="app"]/main/div/div/div[2]/h2""")
-  LOCATOR_CONTACT_US_BTN = (By.XPATH, """//*[@id="app"]/main/nav/ul/li[2]/a""")
+
 
 class PostPageLocators:
     LOCATOR_CREATE_POST_BTN = (By.XPATH, "//*[@id='create-btn']")
@@ -20,10 +20,11 @@ class PostPageLocators:
     LOCATOR_BLOG_LABEL = (By.XPATH, "//*[@id='app']/main/div/div[1]/h1")
 
 class ContactUsPageLocators:
+    LOCATOR_CONTACT_US_BTN = (By.XPATH, """//*[@id="app"]/main/nav/ul/li[2]/a""")
     LOCATOR_NAME_FIELD = (By.XPATH, """//*[@id="contact"]/div[1]/label/input""")
     LOCATOR_EMAIL_FIELD = (By.XPATH,"""//*[@id="contact"]/div[2]/label/input""")
     LOCATOR_CONTENT_TO_US_FIELD = (By.XPATH, """//*[@id="contact"]/div[3]/label/span/textarea""")
-    LOCATOR_CONTACT_US_BTN = (By.XPATH, """//*[@id="contact"]/div[4]/button/span""")
+    LOCATOR_CONTACT_US_BTN_2 = (By.XPATH, """//*[@id="contact"]/div[4]/button/span""")
 
 class OperationsHelper(BasePage):
 
@@ -91,6 +92,6 @@ class OperationsHelper(BasePage):
         ontent_to_us.send_keys(word)
 
     def click_contact_us_button(self):
-        logging.info(f"Clicking Contact us button {ContactUsPageLocators.LOCATOR_CONTACT_US_BTN[1]}")
-        contact_us_button = self.find_element(ContactUsPageLocators.LOCATOR_CONTACT_US_BTN)
+        logging.info(f"Clicking Contact us button {ContactUsPageLocators.LOCATOR_CONTACT_US_BTN_2[1]}")
+        contact_us_button = self.find_element(ContactUsPageLocators.LOCATOR_CONTACT_US_BTN_2)
         contact_us_button.click()
