@@ -55,18 +55,16 @@ def test_step4(browser):
     logging.info("Test 4 starting")
     testpage = OperationsHelper(browser)
     testpage.go_to_site()
-    testpage.find_element(ContactUsPageLocators.LOCATOR_CONTACT_US_BTN).click()
+    testpage.find_element(ContactUsPageLocators.LOCATOR_CONTACT_US_BTN)
+    testpage.click_contact_us_button()
     WebDriverWait(testpage.driver, 10).until(
         EC.visibility_of_element_located(ContactUsPageLocators.LOCATOR_NAME_FIELD)
     )
     testpage.enter_name(testdata['name_for_contact_us'])
     testpage.enter_email(testdata['email_for_contact_us'])
     testpage.enter_content_to_us(testdata['content_for_contact_us'])
-    testpage.click_contact_us_button()
+    testpage.click_contact_us_button2()
     WebDriverWait(testpage.driver, 10).until(EC.alert_is_present())
-    # Получение текста алерта
-    alert = testpage.find_alert()
-    alert_text = alert.text
-    # Закрытие алерта
-    alert.accept()
+    alert_text = testpage.get_alert_text()
+    testpage.find_alert().accept()
     assert alert_text == 'Form successfully submitted'

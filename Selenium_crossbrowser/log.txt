@@ -1,24 +1,27 @@
-2024-02-20 11:54:36 INFO ====== WebDriver manager ======
-2024-02-20 11:54:36 INFO Get LATEST chromedriver version for google-chrome
-2024-02-20 11:54:37 INFO Get LATEST chromedriver version for google-chrome
-2024-02-20 11:54:37 INFO Driver [/Users/the_ryuk/.wdm/drivers/chromedriver/mac64/121.0.6167.184/chromedriver-mac-arm64/chromedriver] found in cache
-2024-02-20 11:54:38 INFO Test 1 starting
-2024-02-20 11:54:41 INFO Send test to element //*[@id="login"]/div[1]/label/input
-2024-02-20 11:54:41 INFO Send test to element //*[@id="app"]/main/div/div/div[2]/h2
-2024-02-20 11:54:41 INFO Click login button
-2024-02-20 11:54:42 INFO Found text 401 in error field //*[@id="app"]/main/div/div/div[2]/h2
-2024-02-20 11:54:42 INFO Test 2 starting
-2024-02-20 11:54:42 INFO Send ddddddddddddddddddddd111111 to element //*[@id="login"]/div[1]/label/input
-2024-02-20 11:54:42 INFO Send 844ba5ccff to element //*[@id="app"]/main/div/div/div[2]/h2
-2024-02-20 11:54:42 INFO Click login button
-2024-02-20 11:54:44 INFO Test 3 starting
-2024-02-20 11:54:44 INFO Sending 'Test post' to title field //*[@id='create-item']/div/div/div[1]/div/label/input
-2024-02-20 11:54:44 INFO Sending 'Test' to description field //*[@id='create-item']/div/div/div[2]/div/label/span/textarea
-2024-02-20 11:54:44 INFO Sending 'Test' to content field //*[@id='create-item']/div/div/div[3]/div/label/span/textarea
-2024-02-20 11:54:44 INFO Clicking save button //*[@id='create-item']/div/div/div[7]/div/button/span
-2024-02-20 11:54:48 INFO Test 4 starting
-2024-02-20 11:54:49 INFO Sending 'Ivan' to name field //*[@id="contact"]/div[1]/label/input
-2024-02-20 11:54:49 INFO Sending 'blablabla@mail.com' to email field //*[@id="contact"]/div[2]/label/input
-2024-02-20 11:54:49 INFO Sending 'Исчерпывающее тестирование невозможно' to email field //*[@id="contact"]/div[3]/label/span/textarea
-2024-02-20 11:54:49 INFO Clicking Contact us button //*[@id="contact"]/div[4]/button/span
-2024-02-20 11:54:49 INFO Alert found.
+2024-02-20 12:52:41 INFO ====== WebDriver manager ======
+2024-02-20 12:52:41 INFO Get LATEST chromedriver version for google-chrome
+2024-02-20 12:52:41 INFO Get LATEST chromedriver version for google-chrome
+2024-02-20 12:52:42 INFO Driver [/Users/the_ryuk/.wdm/drivers/chromedriver/mac64/121.0.6167.184/chromedriver-mac-arm64/chromedriver] found in cache
+2024-02-20 12:52:43 INFO Test 1 starting
+2024-02-20 12:52:46 INFO Send test to element //*[@id="login"]/div[1]/label/input
+2024-02-20 12:52:46 INFO Send test to element //*[@id="app"]/main/div/div/div[2]/h2
+2024-02-20 12:52:46 INFO Click login button
+2024-02-20 12:52:47 INFO Found text 401 in error field //*[@id="app"]/main/div/div/div[2]/h2
+2024-02-20 12:52:47 INFO Test 2 starting
+2024-02-20 12:52:47 INFO Send ddddddddddddddddddddd111111 to element //*[@id="login"]/div[1]/label/input
+2024-02-20 12:52:47 INFO Send 844ba5ccff to element //*[@id="app"]/main/div/div/div[2]/h2
+2024-02-20 12:52:47 INFO Click login button
+2024-02-20 12:52:50 INFO Test 3 starting
+2024-02-20 12:52:50 INFO Sending 'Test post' to title field //*[@id='create-item']/div/div/div[1]/div/label/input
+2024-02-20 12:52:50 INFO Sending 'Test' to description field //*[@id='create-item']/div/div/div[2]/div/label/span/textarea
+2024-02-20 12:52:50 INFO Sending 'Test' to content field //*[@id='create-item']/div/div/div[3]/div/label/span/textarea
+2024-02-20 12:52:50 INFO Clicking save button //*[@id='create-item']/div/div/div[7]/div/button/span
+2024-02-20 12:52:53 INFO Test 4 starting
+2024-02-20 12:52:55 INFO Clicking Contact us button //*[@id="app"]/main/nav/ul/li[2]/a
+2024-02-20 12:52:55 INFO Sending 'Ivan' to name field //*[@id="contact"]/div[1]/label/input
+2024-02-20 12:52:55 INFO Sending 'blablabla@mail.com' to email field //*[@id="contact"]/div[2]/label/input
+2024-02-20 12:52:55 INFO Sending 'Исчерпывающее тестирование невозможно' to email field //*[@id="contact"]/div[3]/label/span/textarea
+2024-02-20 12:52:55 INFO Clicking Contact us button //*[@id="app"]/main/nav/ul/li[2]/a
+2024-02-20 12:52:56 INFO Alert found.
+2024-02-20 12:52:56 INFO Alert text: Form successfully submitted
+2024-02-20 12:52:56 INFO Alert found.

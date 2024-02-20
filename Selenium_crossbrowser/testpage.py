@@ -28,6 +28,7 @@ class ContactUsPageLocators:
 
 class OperationsHelper(BasePage):
 
+# ENTER TEXT
     def enter_login(self, word):
         logging.info(f"Send {word} to element {TestSearchLocators.LOCATOR_LOGIN_FIELD[1]}")
         login_field = self.find_element(TestSearchLocators.LOCATOR_LOGIN_FIELD)
@@ -43,12 +44,6 @@ class OperationsHelper(BasePage):
     def click_login_button(self):
         logging.info("Click login button")
         self.find_element(TestSearchLocators.LOCATOR_LOGIN_BTN).click()
-
-    def get_error_text(self):
-        error_field = self.find_element(TestSearchLocators.LOCATOR_ERROR_FIELD, timeout=3)
-        text = error_field.text
-        logging.info(f"Found text {text} in error field {TestSearchLocators.LOCATOR_ERROR_FIELD[1]}")
-        return text
 
     def enter_title(self, word):
         logging.info(f"Sending '{word}' to title field {PostPageLocators.LOCATOR_TITLE_FIELD[1]}")
@@ -68,11 +63,6 @@ class OperationsHelper(BasePage):
         content_field.clear()
         content_field.send_keys(word)
 
-    def click_save_button(self):
-        logging.info(f"Clicking save button {PostPageLocators.LOCATOR_SAVE_BTN[1]}")
-        save_button = self.find_element(PostPageLocators.LOCATOR_SAVE_BTN)
-        save_button.click()
-
     def enter_name(self, word):
         logging.info(f"Sending '{word}' to name field {ContactUsPageLocators.LOCATOR_NAME_FIELD[1]}")
         name_field = self.find_element(ContactUsPageLocators.LOCATOR_NAME_FIELD)
@@ -91,7 +81,35 @@ class OperationsHelper(BasePage):
         ontent_to_us.clear()
         ontent_to_us.send_keys(word)
 
+
+# CLICK
+
+    def click_contact_us_button2(self):
+        logging.info(f"Clicking Contact us button {ContactUsPageLocators.LOCATOR_CONTACT_US_BTN[1]}")
+        contact_us_button2 = self.find_element(ContactUsPageLocators.LOCATOR_CONTACT_US_BTN_2)
+        contact_us_button2.click()
+    
     def click_contact_us_button(self):
-        logging.info(f"Clicking Contact us button {ContactUsPageLocators.LOCATOR_CONTACT_US_BTN_2[1]}")
-        contact_us_button = self.find_element(ContactUsPageLocators.LOCATOR_CONTACT_US_BTN_2)
+        logging.info(f"Clicking Contact us button {ContactUsPageLocators.LOCATOR_CONTACT_US_BTN[1]}")
+        contact_us_button = self.find_element(ContactUsPageLocators.LOCATOR_CONTACT_US_BTN)
         contact_us_button.click()
+
+    def click_save_button(self):
+        logging.info(f"Clicking save button {PostPageLocators.LOCATOR_SAVE_BTN[1]}")
+        save_button = self.find_element(PostPageLocators.LOCATOR_SAVE_BTN)
+        save_button.click()
+
+
+# GET TEXT 
+    def get_alert_text(self):
+        """Получает текст из алерта."""
+        alert = self.find_alert()
+        alert_text = alert.text
+        logging.info(f"Alert text: {alert_text}")
+        return alert_text
+
+    def get_error_text(self):
+        error_field = self.find_element(TestSearchLocators.LOCATOR_ERROR_FIELD, timeout=3)
+        text = error_field.text
+        logging.info(f"Found text {text} in error field {TestSearchLocators.LOCATOR_ERROR_FIELD[1]}")
+        return text
