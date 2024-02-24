@@ -6,7 +6,7 @@ from email.mime.application import MIMEApplication
 import subprocess
 
 # Указываем путь к файлу тестов
-test_file_path = '/Users/the_ryuk/Desktop/PythonCurse_2/Selenium_crossbrowser/test_1.py'
+test_file_path = '/Users/the_ryuk/Desktop/PythonCurse_2/Social_Network_Project_Testing/test_UI.py'
 
 # Запускаем pytest с указанным файлом и сохраняем отчет в report.xml: python send_report.py
 subprocess.run(['pytest', test_file_path, '--junitxml=report.xml'])
