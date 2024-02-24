@@ -1,0 +1,3 @@
+2024-02-24 14:36:29 INFO Test 'test_post_exists_in_list' starting
+2024-02-24 14:36:29 INFO Test 'test_create_new_post' starting
+2024-02-24 14:36:30 INFO Test 'test_check_post_exists' starting
