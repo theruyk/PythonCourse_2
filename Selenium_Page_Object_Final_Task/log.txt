@@ -1,0 +1,4 @@
+2024-02-26 13:47:03 INFO ====== WebDriver manager ======
+2024-02-26 13:47:03 INFO Get LATEST chromedriver version for google-chrome
+2024-02-26 13:47:03 INFO Get LATEST chromedriver version for google-chrome
+2024-02-26 13:47:04 INFO Driver [/Users/the_ryuk/.wdm/drivers/chromedriver/mac64/122.0.6261.69/chromedriver-mac-arm64/chromedriver] found in cache
