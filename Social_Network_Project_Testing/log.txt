@@ -1,12 +1,12 @@
-2024-02-24 14:50:32 INFO ====== WebDriver manager ======
-2024-02-24 14:50:32 INFO Get LATEST chromedriver version for google-chrome
-2024-02-24 14:50:32 INFO Get LATEST chromedriver version for google-chrome
-2024-02-24 14:50:33 INFO Driver [/Users/the_ryuk/.wdm/drivers/chromedriver/mac64/122.0.6261.69/chromedriver-mac-arm64/chromedriver] found in cache
-2024-02-24 14:50:34 INFO Test 1 starting
-2024-02-24 14:50:38 INFO Error field text: '401' with locator '//*[@id="app"]/main/div/div/div[2]/h2'
-2024-02-24 14:50:38 INFO Test 2 starting
-2024-02-24 14:50:40 INFO Test 3 starting
-2024-02-24 14:50:43 INFO Test 4 starting
-2024-02-24 14:50:44 INFO Alert found.
-2024-02-24 14:50:44 INFO Alert text: 'Form successfully submitted'
-2024-02-24 14:50:44 INFO Alert found.
+2024-02-26 11:25:59 INFO ====== WebDriver manager ======
+2024-02-26 11:25:59 INFO Get LATEST chromedriver version for google-chrome
+2024-02-26 11:25:59 INFO Get LATEST chromedriver version for google-chrome
+2024-02-26 11:26:00 INFO Driver [/Users/the_ryuk/.wdm/drivers/chromedriver/mac64/122.0.6261.69/chromedriver-mac-arm64/chromedriver] found in cache
+2024-02-26 11:26:01 INFO Test 1 starting
+2024-02-26 11:26:04 INFO Error field text: '401' with locator '//*[@id="app"]/main/div/div/div[2]/h2'
+2024-02-26 11:26:04 INFO Test 2 starting
+2024-02-26 11:26:06 INFO Test 3 starting
+2024-02-26 11:26:10 INFO Test 4 starting
+2024-02-26 11:26:11 INFO Alert found.
+2024-02-26 11:26:11 INFO Alert text: 'Form successfully submitted'
+2024-02-26 11:26:11 INFO Alert found.
